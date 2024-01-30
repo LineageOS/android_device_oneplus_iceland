@@ -92,6 +92,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libcamxdumpinforecorder.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v36.so'),
+    'odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini': blob_fixup()
+        .regex_replace(r'(wlm_latency_flags_ultralow =)0x180c83', r'\g<1>0x180c82'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
