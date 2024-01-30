@@ -79,6 +79,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('rpcmem_to_fd'),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
+    'odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini': blob_fixup()
+        .regex_replace(r'(wlm_latency_flags_ultralow =)0x180c83', r'\g<1>0x180c82'),
     (
         'vendor/lib64/camera/components/com.qti.node.dewarp.so',
         'vendor/lib64/vendor.qti.hardware.camera.offlinecamera-service-impl.so',
