@@ -1761,6 +1761,8 @@ odm/usr/idc/pogo_touchpad.idc
 odm/firmware/POGOPIN_KB.bin
 
 # Sensors config
+my_product/etc/fusionlight_profile/fusionlight_Main_1_3.json:odm/etc/fusionlight_profile/fusionlight_Main_1_3.json
+my_product/etc/fusionlight_profile/fusionlight_Main_3_3.json:odm/etc/fusionlight_profile/fusionlight_Main_3_3.json
 odm/etc/sensor/config/json_list
 odm/etc/sensor/config/kaanapali_mtp_ak09919.json
 odm/etc/sensor/config/kaanapali_mtp_alsps.json
