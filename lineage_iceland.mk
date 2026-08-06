@@ -7,25 +7,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from erhai device
-$(call inherit-product, device/oneplus/erhai/device.mk)
+# Inherit from iceland device
+$(call inherit-product, device/oneplus/iceland/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
-PRODUCT_NAME := lineage_erhai
-PRODUCT_DEVICE := erhai
+PRODUCT_NAME := lineage_iceland
+PRODUCT_DEVICE := iceland
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OPD2415
+PRODUCT_MODEL := OPD2514
 PRODUCT_CHARACTERISTICS := nosdcard,tablet
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1788873658110 release-keys" \
-    BuildFingerprint=OnePlus/OPD2415EEA/OP6190L1:16/AP3A.240617.008/V.R4T3.3181121-bb057a-bb0593:user/release-keys \
-    DeviceName=OP6190L1 \
-    DeviceProduct=OPD2415 \
-    SystemDevice=OP6190L1 \
-    SystemName=OPD2415
+    BuildDesc="qssi_64-user 16 BP2A.250605.015 1785852178639 release-keys" \
+    BuildFingerprint=OnePlus/OPD2514IN/OP657AL1:16/BP2A.250605.015/B.R4T3.3cd1bf3-17b9069-17b4b68:user/release-keys \
+    DeviceName=OP657AL1 \
+    DeviceProduct=OPD2514 \
+    SystemDevice=OP657AL1 \
+    SystemName=OPD2514
