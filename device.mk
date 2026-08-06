@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.erhai.rc
+    init.iceland.rc
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -76,7 +76,7 @@ PRODUCT_PACKAGES += \
     OplusPen
 
 # Inherit from the common OEM chipset makefile.
-$(call inherit-product, device/oneplus/sm8750-common/common.mk)
+$(call inherit-product, device/oneplus/sm8850-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/erhai/erhai-vendor.mk)
+$(call inherit-product, vendor/oneplus/iceland/iceland-vendor.mk)
