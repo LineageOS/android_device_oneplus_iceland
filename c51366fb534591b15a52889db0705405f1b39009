@@ -16,6 +16,24 @@
       "message": "restore vi:ft..., this change has no reason to remove it.",
       "revId": "c51366fb534591b15a52889db0705405f1b39009",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c16c46af_bd3d66b9",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1423,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-07T16:06:59Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "5d4dee3d_3b46208d",
+      "revId": "c51366fb534591b15a52889db0705405f1b39009",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
