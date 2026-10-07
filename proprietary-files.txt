@@ -1363,6 +1363,9 @@ odm/firmware/uff_face.b07
 odm/firmware/uff_face.b08
 odm/firmware/uff_face.mdt
 
+# Horae
+odm/etc/horae/horae_target.conf
+
 # NVRAM
 odm/bin/nvram_qmi
 odm/bin/nvram_server
