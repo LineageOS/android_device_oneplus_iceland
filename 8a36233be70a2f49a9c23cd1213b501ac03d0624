@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0416d6dd_502b8d05",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 1711,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-10-07T16:04:46Z",
+      "side": 1,
+      "message": "are you sure you need nvram_diag?",
+      "revId": "8a36233be70a2f49a9c23cd1213b501ac03d0624",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
