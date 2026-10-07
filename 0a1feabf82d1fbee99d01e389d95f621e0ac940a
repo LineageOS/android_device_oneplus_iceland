@@ -16,6 +16,24 @@
       "message": "leave it, not related to this change.",
       "revId": "0a1feabf82d1fbee99d01e389d95f621e0ac940a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "707e464e_f41dcc45",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1423,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-07T15:58:40Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "282f736e_e192098a",
+      "revId": "0a1feabf82d1fbee99d01e389d95f621e0ac940a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
