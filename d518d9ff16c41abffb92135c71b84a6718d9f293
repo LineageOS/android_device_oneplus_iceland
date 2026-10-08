@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06b095b8_f4eced66",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-08T09:43:31Z",
+      "side": 1,
+      "message": "Added the topic for easy tracking when hw_oplus is reviewed later",
+      "revId": "d518d9ff16c41abffb92135c71b84a6718d9f293",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
