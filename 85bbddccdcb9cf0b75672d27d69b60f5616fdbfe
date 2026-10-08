@@ -34,6 +34,24 @@
       "parentUuid": "667f11d9_86abda62",
       "revId": "85bbddccdcb9cf0b75672d27d69b60f5616fdbfe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c182880c_8c8b35c4",
+        "filename": "lineage_iceland.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-10-08T06:34:33Z",
+      "side": 1,
+      "message": "yes, initial conversion should contain up to date desc/fp",
+      "parentUuid": "7c38523e_a3133d84",
+      "revId": "85bbddccdcb9cf0b75672d27d69b60f5616fdbfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
