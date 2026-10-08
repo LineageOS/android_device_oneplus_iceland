@@ -16,6 +16,24 @@
       "message": "would make sense to have a custom display config with proper auto brightness settings for your panel.",
       "revId": "f4228c2ad5f01f998045db4a1aff71edc946a645",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9dbd6cd9_19a3d61e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-08T07:20:28Z",
+      "side": 1,
+      "message": "So ship a config with proper values inside from the DT via device.mk?",
+      "parentUuid": "daa11803_16ccd1d4",
+      "revId": "f4228c2ad5f01f998045db4a1aff71edc946a645",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
