@@ -34,6 +34,23 @@
       "parentUuid": "cf088045_d502d619",
       "revId": "8eaca7680ca980bf10e0d812f871ed461fa55b84",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9bc6641_d1011720",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-08T08:07:48Z",
+      "side": 1,
+      "message": "@priv.luk@gmail.com opened the PR against this HEAD in Muppets",
+      "revId": "8eaca7680ca980bf10e0d812f871ed461fa55b84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
