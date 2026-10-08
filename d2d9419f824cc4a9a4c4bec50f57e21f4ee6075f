@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e808d1f_28b705eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-10-08T06:57:29Z",
+      "side": 1,
+      "message": "would probably squash it into initial device tree conversion, but w/e.",
+      "revId": "d2d9419f824cc4a9a4c4bec50f57e21f4ee6075f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
