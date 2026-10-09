@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7c78b6a_8b4a1837",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-09T04:03:28Z",
+      "side": 1,
+      "message": "Fixes whitish overlays being applied on submenus due to P3 fallback",
+      "revId": "892322379c759f382a6c90abc5e61be1e1895365",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
