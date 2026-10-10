@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "766b814c_7274348b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-10T18:39:44Z",
+      "side": 1,
+      "message": "Chain verified fine on IN variant of iceland that i have, no issues yet",
+      "revId": "57debd239b27b13ffeb1fc9571ef0c6fac424db8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
