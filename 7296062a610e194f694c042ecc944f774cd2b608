@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b86b6fe_8a7d997e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-10T18:39:00Z",
+      "side": 1,
+      "message": "Could do, kept it atomic in case of reverting later if some CN guy face an issue",
+      "parentUuid": "2987521c_ee63df7f",
+      "revId": "7296062a610e194f694c042ecc944f774cd2b608",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7dd0d4c8_01b731c7",
