@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa34b159_ed29441f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-12T19:23:31Z",
+      "side": 1,
+      "message": "Build is ongoing with this, will update the vote once tested on build front, did adb tests and it was fine",
+      "revId": "a0e30d1de1dbaec4195aa034cec3f56afe0c9342",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
