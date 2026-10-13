@@ -122,6 +122,24 @@
       "message": "Why is it merged when the related common tree changes are still open?",
       "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f43cd1d7_c2f0164c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-13T13:16:09Z",
+      "side": 1,
+      "message": "Because I missed that there was a common change.",
+      "parentUuid": "c9813223_e2b624f4",
+      "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
