@@ -33,6 +33,24 @@
       "message": "Your LLM is qorking hard. :)",
       "revId": "2f02778e943821aab3bb64d519ac73d20f32ecc2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aaea8dc0_603c95a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-13T09:21:55Z",
+      "side": 1,
+      "message": "Doing stuff that matters with the help of AI is not a bad thing i hope xD",
+      "parentUuid": "bc162c19_f6c729fb",
+      "revId": "2f02778e943821aab3bb64d519ac73d20f32ecc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
