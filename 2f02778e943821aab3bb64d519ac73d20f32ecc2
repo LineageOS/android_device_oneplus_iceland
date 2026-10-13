@@ -73,6 +73,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f987bdb2_32e3b2d0",
+        "filename": "extract-files.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-13T09:43:42Z",
+      "side": 1,
+      "message": "sort with dir first, like in blobslist",
+      "range": {
+        "startLine": 86,
+        "startChar": 0,
+        "endLine": 87,
+        "endChar": 34
+      },
+      "revId": "2f02778e943821aab3bb64d519ac73d20f32ecc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "18625ffd_4f45d15e",
         "filename": "proprietary-files.txt",
         "patchSetId": 3
