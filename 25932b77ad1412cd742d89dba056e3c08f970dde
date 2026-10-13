@@ -52,6 +52,24 @@
       "parentUuid": "b792b042_a1b3ae64",
       "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a77ce8ba_f1171a6d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-13T11:21:52Z",
+      "side": 1,
+      "message": "Yea, that\u0027s the issue I also face on sm8550 and sm8750.",
+      "parentUuid": "40ed2584_8c1f0106",
+      "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
