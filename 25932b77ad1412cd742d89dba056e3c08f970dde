@@ -87,6 +87,24 @@
       "message": "Anyway, send vendor PR related with this change.",
       "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf7008c7_75cc07d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-13T11:25:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa6eca25_520e0db5",
+      "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
