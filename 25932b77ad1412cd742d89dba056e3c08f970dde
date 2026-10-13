@@ -34,6 +34,24 @@
       "parentUuid": "3c0d8ccf_9d46904e",
       "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40ed2584_8c1f0106",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-13T11:15:03Z",
+      "side": 1,
+      "message": "@bgcngm@gmail.com My headset is supported over LE Audio, but for some reason, it never pairs and the connection is very iffy so i cant confirm this",
+      "parentUuid": "b792b042_a1b3ae64",
+      "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
