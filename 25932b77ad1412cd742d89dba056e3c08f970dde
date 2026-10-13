@@ -105,6 +105,23 @@
       "parentUuid": "aa6eca25_520e0db5",
       "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9813223_e2b624f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-10-13T13:12:42Z",
+      "side": 1,
+      "message": "Why is it merged when the related common tree changes are still open?",
+      "revId": "25932b77ad1412cd742d89dba056e3c08f970dde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
