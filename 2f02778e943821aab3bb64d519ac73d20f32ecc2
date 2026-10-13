@@ -69,6 +69,23 @@
       "parentUuid": "aaea8dc0_603c95a9",
       "revId": "2f02778e943821aab3bb64d519ac73d20f32ecc2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18625ffd_4f45d15e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-10-13T09:42:02Z",
+      "side": 1,
+      "message": "Make separate section for spatializer, as we did in infiniti",
+      "revId": "2f02778e943821aab3bb64d519ac73d20f32ecc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
