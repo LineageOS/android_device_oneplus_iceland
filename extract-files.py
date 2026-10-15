@@ -5,6 +5,8 @@
 #
 
 from extract_utils.fixups_blob import (
+    BlobFixupCtx,
+    File,
     blob_fixup,
     blob_fixups_user_type,
 )
@@ -15,6 +17,12 @@ from extract_utils.fixups_lib import (
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
+)
+from extract_utils.tools import (
+    llvm_objdump_path,
+)
+from extract_utils.utils import (
+    run_cmd,
 )
 from extract_utils_oplus import (
     add_generated_thermal_engine_config,
@@ -38,6 +46,42 @@ lib_fixups: lib_fixups_user_type = {
     ): lib_fixup_vendor_suffix,
 }
 
+
+def blob_change_mov_w8_2_to_0(
+    ctx: BlobFixupCtx,
+    file: File,
+    file_path: str,
+    disassemble_symbol: str,
+    *args,
+    **kwargs,
+):
+    for line in run_cmd(
+        [
+            llvm_objdump_path,
+            f'--disassemble-symbols={disassemble_symbol}',
+            file_path,
+        ]
+    ).splitlines():
+        line = line.split(maxsplit=3)
+
+        if len(line) != 4:
+            continue
+
+        offset, _, instruction, args = line
+
+        if instruction != 'mov':
+            continue
+
+        if not args.startswith('w8, #0x2 '):
+            continue
+
+        with open(file_path, 'rb+') as f:
+            f.seek(int(offset[:-1], 16))
+            f.write(b'\x08\x00\x80\x52')  # AArch64 mov w8, #0
+
+        break
+
+
 blob_fixups: blob_fixups_user_type = {
     (
         'odm/bin/nvram_diag',
@@ -49,7 +93,8 @@ blob_fixups: blob_fixups_user_type = {
     'odm/etc/sensor/sensor_config.json': blob_fixup()
         .regex_replace(r'(?s)("25978":)(\{.*\})(\s*\}\s*)$', r'\1\2,\r\n    "25927":\2\3'),
     'odm/lib64/soundfx/libOplusSpatializerAidl.so': blob_fixup()
-        .add_needed('libbase.so'),
+        .add_needed('libbase.so')
+        .call(blob_change_mov_w8_2_to_0, '_ZN4aidl7android8hardware5audio6effect20OplusSpatializerImplC2Ev'),
     (
         'odm/lib64/libAlgoProcess.so',
         'odm/lib64/libEIS.so',
