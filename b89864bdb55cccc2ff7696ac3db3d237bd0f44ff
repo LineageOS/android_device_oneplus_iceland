@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b455b68b_a95408d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-15T20:47:13Z",
+      "side": 1,
+      "message": "Fixes center channels going missing when audio is played with spatial audio being on",
+      "revId": "b89864bdb55cccc2ff7696ac3db3d237bd0f44ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
