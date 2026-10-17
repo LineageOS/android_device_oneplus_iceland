@@ -33,6 +33,24 @@
       "message": "@studiokeys@blissroms.org dropped these changes since they aren’t required for your device.",
       "revId": "920ca085845d2b489a9f1cf42ee1da9e360b975d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30b4a648_21ad400e",
+        "filename": "extract-files.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-17T06:25:00Z",
+      "side": 1,
+      "message": "Ok will re-do testing and leave V+1 here once its done",
+      "parentUuid": "b4639fb0_c2981241",
+      "revId": "920ca085845d2b489a9f1cf42ee1da9e360b975d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
