@@ -1804,6 +1804,7 @@ vendor/firmware/vpu40_2v_v1_unsigned.mbn
 odm/etc/wifi/peach/bdwlan.elf
 odm/etc/wifi/peach/regdb.bin
 odm/etc/wifi/peach/regdb_version
+odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
 
 # Wireless pen firmware
 odm/firmware/wireless_pen/25978/mt5806_firmware.bin;SYMLINK=odm/firmware/wireless_pen/25927/mt5806_firmware.bin
