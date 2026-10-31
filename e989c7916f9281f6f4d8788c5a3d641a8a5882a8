@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ad94706_3042b3ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-31T13:24:17Z",
+      "side": 1,
+      "message": "Requires some additional sepolicy fixes in hardware_oplus as well, will push and attach to this topic to have it booting",
+      "revId": "e989c7916f9281f6f4d8788c5a3d641a8a5882a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
