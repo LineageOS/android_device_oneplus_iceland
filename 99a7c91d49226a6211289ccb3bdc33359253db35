@@ -16,6 +16,24 @@
       "message": "Drop other devices libs",
       "revId": "99a7c91d49226a6211289ccb3bdc33359253db35",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c29ede8_138d23a6",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-11-01T09:15:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d326fdc2_0fe1b7c3",
+      "revId": "99a7c91d49226a6211289ccb3bdc33359253db35",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
