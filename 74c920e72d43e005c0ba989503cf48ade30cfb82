@@ -16,6 +16,24 @@
       "message": "drop this in future commit",
       "revId": "74c920e72d43e005c0ba989503cf48ade30cfb82",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ad4564f_9576c624",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1752,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-11-01T05:56:02Z",
+      "side": 0,
+      "message": "Done in 511464",
+      "parentUuid": "ac47f348_c588e596",
+      "revId": "74c920e72d43e005c0ba989503cf48ade30cfb82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
