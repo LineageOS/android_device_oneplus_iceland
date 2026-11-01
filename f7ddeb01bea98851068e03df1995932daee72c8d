@@ -16,6 +16,24 @@
       "message": "If this is fixing a real issue why are you waiting and chaining it with COS update?",
       "revId": "f7ddeb01bea98851068e03df1995932daee72c8d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b97f17c_d97855f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-11-01T09:22:58Z",
+      "side": 1,
+      "message": "This works fine only with COS17 blobs, 16 blobs throws elf errors all around, same goes for infiniti as well",
+      "parentUuid": "1831e7e5_25425119",
+      "revId": "f7ddeb01bea98851068e03df1995932daee72c8d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
