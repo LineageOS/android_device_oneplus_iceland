@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d326fdc2_0fe1b7c3",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-11-01T07:01:52Z",
+      "side": 1,
+      "message": "Drop other devices libs",
+      "revId": "99a7c91d49226a6211289ccb3bdc33359253db35",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
