@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ca63d2c_1f05d7ba",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-11-18T20:44:07Z",
+      "side": 1,
+      "message": "```suggestion\nReason for revert: Common tree now ships the updated blob exporting osenseReportEvent().\n```",
+      "revId": "f96902c840792caa9130920ccf4fdd6193714426",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
